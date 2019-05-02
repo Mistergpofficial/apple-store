@@ -35,11 +35,7 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
-    'facebook' => [
-        'client_id' => '2091838484373383',         // Your facebook Client ID
-        'client_secret' => 'bc6b19e476123f0f6bc55549b6e36d36', // Your facebook Client Secret
-        'redirect' => 'http://localhost/newartisan/login/facebook/callback',
-    ],
+
 
 /*
     FACEBOOK_ID = 649100348613254
